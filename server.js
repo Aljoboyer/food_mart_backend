@@ -23,7 +23,7 @@ app.use("/product", productRoutes);
 app.use("/user", userRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Hello Food Mart Server is connected 1!')
+  res.send('Hello Food Mart Server is connected 12!')
 })
 
 app.listen(port, () => {
